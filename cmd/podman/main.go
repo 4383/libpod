@@ -95,6 +95,7 @@ func main() {
 		importCommand,
 		infoCommand,
 		inspectCommand,
+    patchCommand,
 		pullCommand,
 		rmiCommand,
 		systemCommand,
