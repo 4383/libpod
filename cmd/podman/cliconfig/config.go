@@ -80,6 +80,12 @@ type CommitValues struct {
 	Quiet   bool
 }
 
+type RenameValues struct {
+	PodmanCommand
+	OldName     string
+	NewName     string
+}
+
 type ContainersPrune struct {
 	PodmanCommand
 }
